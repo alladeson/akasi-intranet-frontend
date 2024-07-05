@@ -1,0 +1,62 @@
+- Info bulle, voir pourquoi c'est persistant
+- Ajouter des médias à chaque aatribut ou à la sous étape
+- Revoir le component du checkbox, rendre le checked dynamiquement lors du update
+- Mettre les permissions sur les menus (Sidebar)
+- Programmer le register du cluster
+- Prendre en compte la SUGGESTION DES ACTEURS CONCERNANT LA SOLUTION À METTRE EN PLACE lors de la collecte du 16 09
+- Intégrer la page de activity logs, index
+- Enlver les tables : information_collectee_categories et information_collectees
+- Dynamiser les fonctions de AUTH (Register, password reset)
+- Ajouter des acteurs à la sous étape d'une chaîne de valeur. Faire une fenêtre modale pour ça
+- Déplacer InformationSupport (la relation) dans Chaine de valeur  etape detail
+- Programmer dans le formulaire de Finish sous étape, les support d'informations
+- faire un service qui retourne si le current user a un rôle spécifique
+- Programmer la génération du numéro de lot à la réception
+- Programmer la génération du code QR à l'étape concernée
+- Filtre des menus du sidebar selon la permission de l'utilisateur
+
+DÉVELOPPEMENT MOBILE
+
+------
+WILLIAM |
+-------
+- Faire le show de Acteur, frontend et backend. Voir le show de rôle
+- Ajouter les acteurs lors du Create/edit d'une étape
+- Appliquer la pagnation aux listes
+
+------
+SAKINE | 
+-------
+- Les liens dans les menus du footer son brisés YES
+- Masquer la route de la page de consultation YES
+- Mettre du vrai contenu sur le site, toutes les pages
+- Page cluster, bouton "Devenir Mmebre", mettre le bon lien.
+- Faire le filtre de la page de Membres
+- Aplliquer le notion de COntanier et Container-fluid pour els sections de frontoffice
+- Masquer le bouton Consuylter de la page de cluster
+- Masquer le menu Consultations de la page de cluster
+
+
+
+------
+ANGELO |
+-------
+- Appliquer la pagination aux listes
+o Ne pas pouvoir éditer le compte du super admin à partir de la liste des users
+- Quand je suis connecté, lorsque je clique sur "Devenez Membre", redirigez vers le dashboard et non 404
+- Le message suivant apparaît dans la console : "Not found 'Se Connecter' key in 'fr' locale messages"
+- Prévoir une partie dans le profil pour le paramétrage
+- Déboguer les boutons qui se multiplient dans le tableau des employés
+- Ajouter la photo au profil
+
+------
+Emmanuel |
+-------
+- Appliquer la pagnation aux listes
+- Faire le CRUD de LogActivity, seulement le index
+- La création d'un village, le select option ne marche pas à mon niveau.
+
+------
+TOUS |
+-------
+- Personnaliser les messages de validation du backend

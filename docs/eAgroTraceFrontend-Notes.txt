@@ -1,0 +1,67 @@
+- Installer la dernière version de NodeJS
+- npm init vue@latest
+- Répondre aux questions du Terminal
+- npm install
+- npm run lint
+- npm run dev
+--------------------
+Autres éléments installé
+- npm install vuex@next --save
+- npm install @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/vue-fontawesome@prerelease
+- npm install vee-validate@4 yup
+- npm install axios
+- npm install --save bootstrap
+- npm install --save @popperjs/core
+
+-----------------Bootstrap5-----------------------
+https://stackoverflow.com/questions/65547199/using-bootstrap-5-with-vue-3
+npm install --save bootstrap
+npm install --save @popperjs/core
+
+----------------------------------------
+git remote add origin https://github.com/phoudagba/eAgroTraceFrontend.git
+git branch -M main
+git push -u origin 
+
+----------------------------------------
+                CRUD
+----------------------------------------
+https://www.bezkoder.com/vue-3-crud/
+https://www.bezkoder.com/vue-pagination-axios/
+
+https://www.youtube.com/watch?v=f-mbburGc6E
+https://dev.to/rjzauner/learn-the-basics-of-vue-js-by-building-a-simple-crud-app-a-tutorial-1ipi
+----------------------------------------
+
+
+https://getbootstrap.com/docs/5.0/examples/#framework
+https://medium.com/locale-ai/architecting-vuex-store-for-large-scale-vue-js-applications-24c36137e251
+https://www.bezkoder.com/vue-3-authentication-jwt/
+
+- faire une var globale pour import.meta.env.VITE_API_URL_TENANT    => import { capitalize } from './helpers'
++ Comment définir une fonction globale : current user ?
++ Comment récupérer la variable gloabe sans passer pa export component?
++ Éliminer les déchets pour continuer à faire fonctionner l'App?
+- Je cherche toutes les fonctions possible du SFC, surtout dans le export
+- Après le merge, supprimer les références sur plugins sur fontawesome
+
+-------------------------
+- Apurer les images inutiles du projet
+- faire le github pour william
+- mettre dans le PMO le bout en bout à faire : agile
+- Apprêter tout l'environnement web et mobile
+- Mettre variable globale pour le slogan
+- Revalider le middleware
+- renommer les routes
+- Merger les vues avec le concept du tuto
+- Renommer static en Pages par exemple
+- Créer le Bloc FrontOffice / BackOffice / Auth
+- Ajouter le sidebar css dans backoffice
+- Traiter les erreurs de validation et afficher le champ approprié
+- Alerte message au dessus de la barre des CRUD
+- Les headers, enlever l'ancien, ajaxheaders partout
+
+---------------------------
+
+ARCHITECTURE
+- Exemple de Building Large-Scale Apps : https://v1.vuejs.org/guide/application.html

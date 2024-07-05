@@ -1,0 +1,6 @@
+# [[redirects]]
+  # from = "/*"
+  # to = "http://akasi-intranet-1.netlify.app/"
+  # status = 200
+  # force = true
+  # headers = {X-From = "Netlify"}
